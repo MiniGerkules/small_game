@@ -26,7 +26,7 @@ int main()
 		{
 			while (true)
 			{
-
+				Check(game);
 				PrintAllPositions(game);
 
 				std::cout << "\nNow it's " << game[turn]->Name() << "'s turn." << std::endl;
